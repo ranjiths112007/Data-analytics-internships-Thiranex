@@ -1,282 +1,308 @@
 <div align="center">
 
-<img src="https://www.thiranex.in/favicon.ico" width="60" alt="Thiranex Logo" onerror="this.style.display='none'"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.thiranex.in/favicon.ico">
+  <img src="https://www.thiranex.in/favicon.ico" width="52" alt="Thiranex">
+</picture>
 
-# 🎓 Data Analytics Internship
-### @ [Thiranex](https://www.thiranex.in) · June – July 2026
+<br/>
 
-[![Intern](https://img.shields.io/badge/Intern-Ranjith%20S-blue?style=flat-square)](https://www.thiranex.in)
-[![ID](https://img.shields.io/badge/ID-THX--JUN1226--263-orange?style=flat-square)](#)
-[![Duration](https://img.shields.io/badge/Duration-12%20Jun%20–%2011%20Jul%202026-green?style=flat-square)](#)
-[![Mode](https://img.shields.io/badge/Mode-Remote%20%2F%20Project--Based-purple?style=flat-square)](#)
-[![Status](https://img.shields.io/badge/Status-Completed%20✓-brightgreen?style=flat-square)](#)
+```
+T H I R A N E X   ×   D A T A   A N A L Y T I C S
+```
+
+# Internship Portfolio
+
+**Ranjith S** · `THX-JUN1226-263` · June 12 – July 11, 2026
+
+[![Domain](https://img.shields.io/badge/Domain-Data%20Analytics-0d1117?style=flat-square&labelColor=58a6ff&color=0d1117)](https://www.thiranex.in)
+[![Mode](https://img.shields.io/badge/Mode-Remote%20·%20Project%20Based-0d1117?style=flat-square&labelColor=3fb950&color=0d1117)](#)
+[![Tasks](https://img.shields.io/badge/Tasks-4%20of%204%20Completed-0d1117?style=flat-square&labelColor=ffa657&color=0d1117)](#projects)
+[![Progress](https://img.shields.io/badge/Progress-80%25-0d1117?style=flat-square&labelColor=bc8cff&color=0d1117)](#)
 
 </div>
 
 ---
 
-## 📖 My Story — One Month That Changed How I Think About Data
+## The Month
 
-I still remember staring at a blank Python file on my first day, not sure where to begin. Thiranex had assigned me four real-world data analytics projects, and all I had was a Kaggle account, a laptop that overheats, and the kind of nervous energy that makes you open ten browser tabs at once.
+I joined Thiranex on June 12 with a basic understanding of Python and a vague idea of what data analytics actually meant in practice. What followed was the most concentrated learning period of my life.
 
-**Week 1** hit hard. The Sales & Revenue Dashboard sounded simple — until I realised the dataset had inconsistent date formats, mixed currency columns, and product names that had been typed in six different ways. I spent two full evenings just on data cleaning before writing a single line of visualisation code. Late nights at 1 AM with matplotlib documentation open on one screen and Stack Overflow on the other became my routine. My first chart looked like a kindergarten art project. By the fourth attempt, it actually told a story.
+Four projects. Four real datasets downloaded from Kaggle. Four weeks of building things from scratch, breaking them, fixing them at midnight, and slowly developing the kind of intuition that no tutorial ever gave me.
 
-**Week 2** was Customer Segmentation — and the moment everything clicked. Running K-Means for the first time and watching 1,000 customers organise themselves into distinct behavioural groups felt genuinely magical. I remember calling a friend just to say *"I think I understand why companies know what you want to buy before you do."* The RFM analysis took me three days to get right. The silhouette score kept coming back wrong and I couldn't figure out why — turned out I was scaling after splitting instead of before. A three-hour bug that taught me more than three weeks of tutorials ever could.
+**Week 1.** The Sales & Revenue Dashboard sounded manageable until I opened the Superstore dataset and saw what real business data actually looks like — inconsistent date formats, unlabelled columns, product names typed seventeen different ways. I spent the first two days cleaning before writing a single chart. My first dashboard attempt looked like a bar graph drawn by someone who had never seen a bar graph. By the fourth iteration, it was telling a story. That shift — from displaying data to communicating insight — was the first thing I genuinely learned.
 
-**Week 3** was Predictive Analytics. Time-series forecasting with SARIMA looked intimidating in every tutorial I'd seen. I downloaded the Air Passengers dataset from Kaggle, built the pipeline, and watched the model predict seasonal spikes I hadn't told it about — just learned from the data itself. That moment felt like solving a real industry problem. Not a textbook exercise. A real one.
+**Week 2.** Customer Segmentation. Running K-Means clustering for the first time and watching 1,000 customers self-organise into distinct behavioural groups felt like unlocking something. The silhouette score kept coming back wrong and I couldn't figure out why for three hours — I was scaling features after the train/test split instead of before, leaking information into the model. One bug. Three hours. More understanding than a week of reading.
 
-**Week 4** brought Data Cleaning & Reporting Automation with the Superstore dataset. By this point I had developed my own workflow: explore → clean → engineer features → model → visualise → report. What used to take me two days I completed in six hours. The growth felt tangible.
+**Week 3.** Predictive Analytics with SARIMA. Time-series forecasting had always looked intimidating in every resource I'd encountered. I downloaded the Air Passengers dataset, built the pipeline step by step, and watched the model predict seasonal peaks it had never been told about — purely learned from the historical pattern. That moment felt like solving something real.
 
-Thirty days. Four projects. Hundreds of lines of code. Countless error messages. And the kind of practical experience that no classroom ever gave me.
+**Week 4.** Data Cleaning & Reporting Automation. I built a pipeline that takes a raw messy CSV and produces a clean dataset plus a full business report automatically. No manual steps. By this point what had taken me two days in week one took six hours. I could feel the difference.
 
----
-
-## 🗂️ Projects Completed
-
-| # | Project | Dataset | Tools | Status |
-|---|---------|---------|-------|--------|
-| 1 | [Sales & Revenue Dashboard](#-project-1--sales--revenue-dashboard) | Superstore Sales | Python, Matplotlib, Pandas | ✅ Completed |
-| 2 | [Customer Segmentation](#-project-2--customer-segmentation) | E-Commerce Retail | Scikit-learn, K-Means, RFM | ✅ Completed |
-| 3 | [Predictive Analytics](#-project-3--predictive-analytics) | Air Passengers (Kaggle) | SARIMA, XGBoost, Regression | ✅ Completed |
-| 4 | [Data Cleaning & Reporting Automation](#-project-4--data-cleaning--reporting-automation) | Superstore CSV | Pandas, Matplotlib | ✅ Completed |
+Thirty days. Four projects. Hundreds of lines of code. The kind of practical foundation that actually transfers.
 
 ---
 
-## 📊 Project 1 — Sales & Revenue Dashboard
+## Projects
 
-**Due:** 08 Jun 2026 · **Submitted:** On Track
+<br/>
 
-### What I Built
-An interactive sales dashboard that imports raw CSV data and generates visual KPI summaries covering total revenue, regional performance, top products, and monthly trends.
+### 01 · Sales & Revenue Analysis Dashboard
 
-### Key Features
-- Automated CSV ingestion with encoding detection
-- KPI cards: Total Sales, Revenue, Profit Margin, Order Count
-- Charts: Monthly trend lines, category breakdowns, regional comparisons
-- Top 10 products by revenue ranked visually
+> Build a dashboard to analyse sales and revenue data from raw business records.
 
-### What I Learned
-- How to structure a reporting pipeline from raw data to insight
-- Matplotlib figure layouts using GridSpec for dashboard-style outputs
-- How businesses actually use data to track performance
+| | |
+|---|---|
+| **Dataset** | [Superstore Sales — Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) · `Sample - Superstore.csv` |
+| **Tools** | Python · Pandas · Matplotlib · OpenPyXL |
+| **Output** | `superstore_dashboard.xlsx` |
+| **Due** | 08 Jun 2026 · Submitted on track |
 
-### Dataset
-- **Source:** Kaggle — Superstore Sales Dataset
-- **Size:** 9,994 rows × 21 columns
-- **Key columns:** Order Date, Sales, Profit, Category, Region, Segment
+**What it does**
 
-```python
-# Core pipeline pattern I developed
-df = pd.read_csv("data.csv", encoding="latin-1")
-df["Order Date"] = pd.to_datetime(df["Order Date"])
-monthly = df.groupby(df["Order Date"].dt.to_period("M"))["Sales"].sum()
+Imports raw CSV transaction data, computes KPIs (total sales, revenue, profit margin, order count), and generates a multi-panel Excel dashboard with charts covering monthly trends, category performance, regional breakdowns, and top products.
+
+**What I learned**
+
+How businesses actually track performance. The difference between a chart that shows data and a dashboard that drives decisions. Why axis labels and colour choices matter more than the model behind them.
+
+```
+Sales & Revenue Analysis Dashboard/
+├── Sample - Superstore.csv.zip   ← raw dataset (zipped)
+└── superstore_dashboard.xlsx     ← output dashboard
 ```
 
 ---
 
-## 👥 Project 2 — Customer Segmentation
+### 02 · Customer Segmentation
 
-**Due:** 15 Jun 2026 · **Submitted:** On Track
+> Segment customers based on purchasing behaviour using RFM analysis and K-Means clustering.
 
-### What I Built
-A full customer segmentation system using RFM (Recency, Frequency, Monetary) analysis combined with K-Means clustering to group 1,000+ customers into distinct behavioural segments.
+| | |
+|---|---|
+| **Dataset** | [E-Commerce Retail — UCI / Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data) · transactional data |
+| **Tools** | Python · Scikit-learn · Pandas · Matplotlib |
+| **Output** | `customer_segmentation_dashboard.png` · `customer_segments.csv` |
+| **Due** | 15 Jun 2026 · Submitted on track |
 
-### Key Features
-- RFM feature engineering from raw transaction data
-- Optimal K selection using Elbow method + Silhouette score
-- PCA dimensionality reduction for 2D cluster visualisation
-- Segment labelling: Champions, Loyal, At Risk, Hibernating, New
+**What it does**
 
-### Results
+Engineers RFM (Recency, Frequency, Monetary) features from raw transactions, finds the optimal number of clusters using Elbow + Silhouette methods, assigns every customer to a segment, and generates a 8-panel visualisation dashboard covering cluster scatter, revenue heatmap, segment distribution, and actionable recommendations.
+
+**Results**
 
 | Segment | Customers | Avg Spend | Revenue Share |
-|---------|-----------|-----------|---------------|
-| 🏆 Champions | 159 | $48,343 | 67% |
-| 💛 Loyal Customers | 268 | $11,102 | 26% |
-| 🔵 Potential | 386 | $1,946 | 6.5% |
-| ⚠️ At Risk | 187 | $468 | 0.8% |
+|---|---|---|---|
+| Champions | 159 | $48,343 | 67% |
+| Loyal Customers | 268 | $11,102 | 26% |
+| Potential | 386 | $1,946 | 6.5% |
+| At Risk | 187 | $468 | 0.8% |
 
-### Key Insight
-The top 16% of customers drove 67% of total revenue — a classic power-law distribution that completely changed how I think about customer value.
+The top 16% of customers drove 67% of revenue. That single insight changes how a business allocates its retention budget.
 
-### What I Learned
-- K-Means clustering and the importance of feature scaling *before* splitting
-- How RFM analysis is used in real retail and e-commerce businesses
-- PCA for visualising high-dimensional cluster data
+**Dashboard**
+
+![Customer Segmentation Dashboard](Customer%20Segmentation%20Project/customer_segmentation_dashboard.png)
+
+```
+Customer Segmentation Project/
+├── customer_segmentation.py             ← full pipeline
+├── customer_segmentation_dashboard.png  ← output visualisation
+└── customer_segments.csv                ← labelled customer data
+```
 
 ---
 
-## 📈 Project 3 — Predictive Analytics
+### 03 · Predictive Analytics Using Historical Data
 
-**Due:** 22 Jun 2026 · **Submitted:** On Track
+> Build a multi-model forecasting pipeline to predict future trends from historical time-series data.
 
-### What I Built
-A multi-model forecasting pipeline comparing Linear Regression, Random Forest, XGBoost, and SARIMA on time-series data, with a 12-month future forecast and full evaluation dashboard.
+| | |
+|---|---|
+| **Dataset** | [Air Passengers — Kaggle](https://www.kaggle.com/datasets/rakannimer/air-passengers) · `AirPassengers.csv` · 144 monthly records |
+| **Tools** | Python · Statsmodels (SARIMA) · Scikit-learn · XGBoost · Pandas |
+| **Output** | `predictive_analytics_output.png` |
+| **Due** | 22 Jun 2026 · Submitted on track |
 
-### Models Compared
+**What it does**
+
+Loads the Air Passengers dataset, engineers lag and rolling-average features, trains four models side-by-side (Linear Regression, Random Forest, XGBoost, SARIMA), evaluates each on a held-out 24-month test set, then generates a 12-month rolling forecast with confidence intervals.
+
+**Model Comparison (test set)**
 
 | Model | MAE | MAPE | R² |
-|-------|-----|------|----|
+|---|---|---|---|
 | Linear Regression | 16.9 | 3.8% | 0.917 |
 | Random Forest | 34.3 | 7.0% | 0.603 |
-| XGBoost | — | — | — |
 | **SARIMA** | **6.6** | **4.0%** | **0.970** |
 
-### Key Features
-- Lag features: 1-month, 3-month, 12-month lookbacks
-- Rolling averages for trend smoothing
-- Time-series cross-validation (no data leakage)
-- 12-month rolling forecast with 80% confidence intervals
+SARIMA captured seasonality that the ML models missed — the right tool for the job isn't always the most complex one.
 
-### Dataset
-- **Source:** [Kaggle — Air Passengers Dataset](https://www.kaggle.com/datasets/rakannimer/air-passengers)
-- **Size:** 144 monthly records (1949–1960)
-- **Why this dataset:** Clean, real historical data with clear seasonality — ideal for learning time-series patterns
+**Dashboard**
 
-### What I Learned
-- Why time-series splits differ from standard train/test splits
-- How SARIMA handles non-stationary data through differencing
-- The difference between overfitting on training data and real predictive power
-
----
-
-## 🧹 Project 4 — Data Cleaning & Reporting Automation
-
-**Due:** 29 Jun 2026 · **Submitted:** On Track · *Under Review*
-
-### What I Built
-A fully automated data cleaning and reporting pipeline that takes a raw messy CSV and produces a clean dataset plus a complete business intelligence report — with zero manual intervention.
-
-### Cleaning Pipeline
+![Predictive Analytics Dashboard](Predictive%20Analytics%20Using%20Historical%20Data/predictive_analytics_output.png)
 
 ```
-Raw CSV → Detect Encoding → Remove Duplicates → Fix Nulls
-       → Parse Dates → Standardise Columns → Remove Bad Values
-       → Save cleaned_data.csv + Generate report.png
-```
-
-### What Gets Fixed Automatically
-
-| Issue | Solution |
-|-------|----------|
-| Duplicate rows | `drop_duplicates()` with before/after count |
-| Numeric nulls | Filled with column median |
-| Text nulls | Filled with column mode |
-| Bad date formats | `pd.to_datetime(errors='coerce')` |
-| Inconsistent column names | Lowercased, spaces → underscores |
-| Negative sales values | Flagged and removed |
-
-### Dataset
-- **Source:** [Kaggle — Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-- **File:** `Sample - Superstore.csv`
-- **Size:** 9,994 rows × 21 columns
-
-### What I Learned
-- How to build reusable, generalised cleaning functions
-- The real cost of dirty data in business reporting
-- Automation mindset: write it once, run it forever
-
----
-
-## 🛠️ Tech Stack
-
-```
-Languages     Python 3.x
-Libraries     Pandas · NumPy · Matplotlib · Scikit-learn · Statsmodels · XGBoost
-Data Sources  Kaggle (real-world public datasets)
-Environment   VS Code · Jupyter Notebook · Remote / Local
+Predictive Analytics Using Historical Data/
+├── predictive_analytics.py              ← full pipeline
+├── AirPassengers.csv                    ← dataset (included)
+└── predictive_analytics_output.png      ← output dashboard
 ```
 
 ---
 
-## 📁 Repository Structure
+### 04 · Data Cleaning & Reporting Automation
+
+> Automate the full data cleaning and business reporting workflow — zero manual steps.
+
+| | |
+|---|---|
+| **Dataset** | [Superstore Sales — Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) · `Sample - Superstore.csv` |
+| **Tools** | Python · Pandas · NumPy · Matplotlib |
+| **Output** | `cleaned_superstore.csv` · `report.png` |
+| **Due** | 29 Jun 2026 · Submitted on track · Under review |
+
+**What it does**
+
+A single script that ingests a raw messy CSV, runs a full cleaning pipeline (duplicates, nulls, date parsing, column standardisation, bad value removal), exports the clean data, and generates a complete 6-panel business intelligence report — all automatically.
+
+**Cleaning pipeline**
 
 ```
-📦 thiranex-data-analytics-internship/
-├── 📂 project1_sales_dashboard/
-│   ├── sales_dashboard.py
-│   └── report.png
-├── 📂 project2_customer_segmentation/
+Raw CSV
+  → detect encoding (UTF-8 / Latin-1)
+  → drop duplicate rows
+  → fill numeric nulls with column median
+  → fill text nulls with column mode
+  → parse date columns
+  → standardise column names
+  → remove negative sales
+  → export cleaned_superstore.csv
+  → generate report.png
+```
+
+**Dashboard**
+
+![Data Cleaning Report](Data%20Cleaning%20%26%20Reporting%20Automation/report.png)
+
+```
+Data Cleaning & Reporting Automation/
+├── data_cleaning_report.py    ← automation script
+├── Sample - Superstore.csv    ← raw input dataset
+├── cleaned_superstore.csv     ← cleaned output
+└── report.png                 ← generated report
+```
+
+---
+
+## Datasets
+
+All datasets are publicly available on Kaggle. Download and place in the matching project folder before running.
+
+| Project | Dataset | Link |
+|---|---|---|
+| Sales Dashboard | Superstore Sales | [kaggle.com/datasets/vivek468/superstore-dataset-final](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) |
+| Customer Segmentation | E-Commerce Retail (UCI) | [kaggle.com/datasets/carrie1/ecommerce-data](https://www.kaggle.com/datasets/carrie1/ecommerce-data) |
+| Predictive Analytics | Air Passengers | [kaggle.com/datasets/rakannimer/air-passengers](https://www.kaggle.com/datasets/rakannimer/air-passengers) |
+| Data Cleaning | Superstore Sales | [kaggle.com/datasets/vivek468/superstore-dataset-final](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) |
+
+> The Air Passengers CSV is already included in the repo. All others must be downloaded from Kaggle (free account required).
+
+---
+
+## Setup
+
+```bash
+# Clone
+git clone https://github.com/YOUR_USERNAME/Data-analytics-internships-Thiranex.git
+cd Data-analytics-internships-Thiranex
+
+# Install dependencies (once)
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels xgboost openpyxl
+
+# Run any project
+python "Customer Segmentation Project/customer_segmentation.py"
+python "Predictive Analytics Using Historical Data/predictive_analytics.py"
+python "Data Cleaning & Reporting Automation/data_cleaning_report.py"
+```
+
+Each script is self-contained. Drop the dataset CSV in the same folder as the script, run it, outputs generate in the same directory.
+
+---
+
+## Stack
+
+```
+Python 3.x          core language
+Pandas              data manipulation and cleaning
+NumPy               numerical computing
+Matplotlib          visualisation and dashboards
+Scikit-learn        K-Means clustering, regression models, metrics
+Statsmodels         SARIMA time-series modelling
+XGBoost             gradient boosted forecasting
+OpenPyXL            Excel output generation
+Kaggle              all real-world datasets
+```
+
+---
+
+## Repository Structure
+
+```
+Data-analytics-internships-Thiranex-main/
+│
+├── Sales & Revenue Analysis Dashboard/
+│   ├── Sample - Superstore.csv.zip
+│   └── superstore_dashboard.xlsx
+│
+├── Customer Segmentation Project/
 │   ├── customer_segmentation.py
-│   ├── customer_segments.csv
-│   └── customer_segmentation_dashboard.png
-├── 📂 project3_predictive_analytics/
+│   ├── customer_segmentation_dashboard.png
+│   └── customer_segments.csv
+│
+├── Predictive Analytics Using Historical Data/
 │   ├── predictive_analytics.py
-│   ├── forecast_12months.csv
+│   ├── AirPassengers.csv
 │   └── predictive_analytics_output.png
-├── 📂 project4_data_cleaning/
+│
+├── Data Cleaning & Reporting Automation/
 │   ├── data_cleaning_report.py
+│   ├── Sample - Superstore.csv
 │   ├── cleaned_superstore.csv
 │   └── report.png
+│
+├── Thiranex_OfferLetter_Ranjith_S_THX-JUN1226-263.pdf
 └── README.md
 ```
 
 ---
 
-## 🚀 How to Run Any Project
+## What's Next
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/thiranex-data-analytics-internship.git
-cd thiranex-data-analytics-internship
+The foundation is in place. What I'm building toward:
 
-# 2. Install dependencies (once)
-pip install pandas numpy matplotlib seaborn scikit-learn statsmodels xgboost openpyxl
+- **NLP & Text Analytics** — sentiment analysis, topic modelling on unstructured data
+- **ML Engineering** — deploying models as REST APIs, not just notebooks
+- **Business Intelligence** — Power BI and Tableau for stakeholder-facing dashboards
+- **Deep Learning** — neural networks for pattern recognition at scale
 
-# 3. Download datasets from Kaggle and place in the project folder
-
-# 4. Run any project
-python project1_sales_dashboard/sales_dashboard.py
-python project2_customer_segmentation/customer_segmentation.py
-python project3_predictive_analytics/predictive_analytics.py
-python project4_data_cleaning/data_cleaning_report.py
-```
+Every project from here starts from what was built during this internship.
 
 ---
-
-## 💡 Key Takeaways
-
-After a month of working with real datasets and building end-to-end pipelines, here is what I actually learned — not from tutorials, but from doing:
-
-**On Data:** Real data is always messier than you expect. The cleaning always takes longer than the modelling. And the insights are always hiding in the details you almost skipped.
-
-**On Models:** A simple model that you understand beats a complex model that you don't. Linear Regression with good features often outperforms fancy ensembles on small datasets.
-
-**On Process:** The most valuable skill isn't knowing which algorithm to use — it's knowing how to ask the right question from the data in front of you.
-
-**On Growth:** I started this internship Googling "how to read a CSV in Python." I finished it building multi-model forecasting pipelines with automated reporting. The gap between those two things is thirty days of consistent, self-directed work.
-
----
-
-## 🔮 What's Next
-
-The skills I built here are the foundation for everything I want to do next:
-
-- **NLP & Text Analytics** — sentiment analysis, topic modelling
-- **Machine Learning Engineering** — deploying models as APIs
-- **Business Intelligence** — Power BI / Tableau dashboards
-- **Deep Learning** — neural networks for complex pattern recognition
-
-Every future project starts from what I learned at Thiranex.
-
----
-
-## 🙏 Acknowledgements
 
 <div align="center">
 
-A genuine thank you to **[Thiranex](https://www.thiranex.in)** for designing an internship that actually teaches.
+---
 
-No spoon-feeding. No pre-cleaned toy datasets. Real problems, real data from Kaggle, real pressure of weekly deadlines — and the freedom to figure things out through self-learning. That's what made this different.
+**Thank you, Thiranex.**
 
-The best learning happens when you're slightly out of your depth, working on something that actually matters.
-This internship was exactly that.
+This internship was designed around self-learning and real data — no hand-holding, no toy examples. Just actual problems, actual datasets, and the freedom to figure things out. That approach works. The gap between where I started and where I finished is the proof.
 
 ---
 
-**Ranjith S** · Intern ID: `THX-JUN1226-263`
-*Data Analytics Intern · Thiranex · Jun – Jul 2026*
+**Ranjith S**
+Data Analytics Intern · Thiranex · Jun – Jul 2026
+`THX-JUN1226-263`
 
-[![Thiranex](https://img.shields.io/badge/Powered%20by-Thiranex-blue?style=flat-square)](https://www.thiranex.in)
+[thiranex.in](https://www.thiranex.in) · Verified by Thiranex Verification Cell
 
 </div>
