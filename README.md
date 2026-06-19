@@ -275,6 +275,9 @@ Data-analytics-internships-Thiranex-main/
 ```
 
 ---
+## Certificate
+
+![Internship Certificate](internship-certificate.jpg)
 
 ## What's Next
 
