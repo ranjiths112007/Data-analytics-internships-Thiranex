@@ -277,7 +277,7 @@ Data-analytics-internships-Thiranex-main/
 ---
 ## Certificate
 
-![Internship Certificate](internship-certificate.jpg)
+![Internship Certificate](Thiranex_Certificate_Ranjith_S_THX-JUN1226-263.pdf)
 
 ## What's Next
 
